@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.next/
+*.log
+.env
+.DS_Store
+__pycache__/
+*.pyc
+gen_ts.py
+fix_ziwei.py
+fix_ziwei2.py
