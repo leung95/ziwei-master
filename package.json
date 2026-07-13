@@ -1,0 +1,35 @@
+{
+  "name": "ziwei-master",
+  "version": "1.0.0",
+  "description": "紫微斗数排盘 + 流月流日流时流年推算 — 基于 iztro 开源库，提供完整的本命盘生成与流运推算能力",
+  "keywords": [
+    "紫微斗数", "ziwei", "doushu", "astrology", "horoscope",
+    "命理", "排盘", "流月", "流日", "流年"
+  ],
+  "homepage": "https://github.com/<your-username>/ziwei-master",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "chart": "npx tsx cli/ziwei.ts chart",
+    "monthly": "npx tsx cli/ziwei.ts monthly",
+    "daily": "npx tsx cli/ziwei.ts daily",
+    "yearly": "npx tsx cli/ziwei.ts yearly",
+    "now": "npx tsx cli/ziwei.ts now",
+    "star": "npx tsx cli/ziwei.ts star",
+    "palace": "npx tsx cli/ziwei.ts palace",
+    "help": "npx tsx cli/ziwei.ts help"
+  },
+  "dependencies": {
+    "iztro": "^2.5.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "cli/",
+    "py/",
+    "README.md",
+    "LICENSE"
+  ]
+}
