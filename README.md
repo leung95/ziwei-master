@@ -27,16 +27,16 @@ cd ziwei-master
 npm install
 
 # 本命排盘
-npx tsx cli/ziwei.ts chart 1995 10 14 18 male
+npx tsx cli/ziwei.ts chart 1990 1 1 12 male
 
 # 流月推算 (2026年7月)
-npx tsx cli/ziwei.ts monthly 1995 10 14 18 2026 7
+npx tsx cli/ziwei.ts monthly 1990 1 1 12 2026 7
 
 # 流日推算 (2026年7月15日)
-npx tsx cli/ziwei.ts daily 1995 10 14 18 2026 7 15
+npx tsx cli/ziwei.ts daily 1990 1 1 12 2026 7 15
 
 # 当前所有运限
-npx tsx cli/ziwei.ts now 1995 10 14 18
+npx tsx cli/ziwei.ts now 1990 1 1 12
 
 # 星曜知识
 npx tsx cli/ziwei.ts star 紫微
@@ -45,8 +45,8 @@ npx tsx cli/ziwei.ts star 紫微
 ### 通过 Python
 
 ```bash
-python py/ziwei.py chart 1995 10 14 18 male
-python py/ziwei.py monthly 1995 10 14 18 2026 7
+python py/ziwei.py chart 1990 1 1 12 male
+python py/ziwei.py monthly 1990 1 1 12 2026 7
 ```
 
 ## 参数说明
@@ -72,20 +72,20 @@ now     <生年> <月> <日> <时>
 ```
 ════════════════════════════════════════════════════
   紫微斗数命盘
-  出生：1995-10-14 酉时  性别：男
-  农历：一九九五年闰八月二十
-  干支：乙亥 丙戌 戊寅 辛酉  五行局：火六局
-  命宫：丑  身宫：未
+  出生：1990-1-1 午时  性别：男
+  农历：一九八九年腊月初五
+  干支：己巳 丙子 癸酉 戊午  五行局：木三局
+  命宫：午  身宫：戌
 ────────────────────────────────────────────────────
   【十二宫星曜】
-  命宫     [丑]
-    主星：廉贞、七杀(庙旺)
-    辅星：文昌、文曲、蜚廉
+  命宫     [午]
+    主星：太阳、太阴
+    辅星：文昌、文曲、天魁
     大限：6-15岁
 ...
 ════════════════════════════════════════════════════
   流月推运
-  本命：1995/10/14 酉时
+  本命：1990/1/1 午时
   流月：2026年7月
 ────────────────────────────────────────────────────
 【流月】田宅宫（甲午）
